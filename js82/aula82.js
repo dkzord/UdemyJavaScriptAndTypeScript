@@ -9,7 +9,7 @@ const adicionado = nomes.splice(3, 0, 'Luiz');
 const simulandoPop = nomes.splice(-1, 1);
 // shift() - Tira o primeiro da fila
 const simulandoShift = nomes.splice(0, 1);
-// Push
+// Push - Adiciona no final
 nomes.splice(nomes.length, 0, 'Fernando');
 // unshift() - Adiciona no começo do Array;
 nomes.splice(0, 0, 'Cavalcanti');
