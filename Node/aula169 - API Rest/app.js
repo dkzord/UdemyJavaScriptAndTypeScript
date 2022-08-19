@@ -23,5 +23,4 @@ class App {
     this.app.use('/', homeRoutes);
   }
 }
-
 export default new App().app;
