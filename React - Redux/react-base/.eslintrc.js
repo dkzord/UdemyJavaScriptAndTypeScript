@@ -4,6 +4,7 @@ module.exports = {
     es2021: true,
   },
   extends: [
+    'react-app',
     'plugin:react/recommended',
     'airbnb',
     'plugin:prettier/recommended',
@@ -22,10 +23,10 @@ module.exports = {
   },
   plugins: ['react', 'prettier', 'react-hooks'],
   rules: {
-    'prettier/prettier': 2,
     'react/jsx-filename-extension': 0,
     'import/prefer-default-export': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'prettier/prettier': 'error',
   },
 };
